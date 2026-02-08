@@ -14,7 +14,7 @@ const routes=createBrowserRouter([
     element:<SubLogin Type='login'/>
   },
   {
-    path:'allChats',
+    path:'/allChats',
     element:<AllChats/>
   }
 ])
