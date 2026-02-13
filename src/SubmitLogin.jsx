@@ -89,7 +89,7 @@ function SubLogin({Type}){
         
     const buttonClickFunction=(e)=>{
         e.preventDefault()
-        const arrHelper=Type==='login'?['email','password']:['name','email','password'];
+        const arrHelper=Type==='signIn'?['email','password']:['name','email','password'];
         const er=checkValidation(arrHelper)
         setErrors({...er})
         if(Object.keys(er).length)return
