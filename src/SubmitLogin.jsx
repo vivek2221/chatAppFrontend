@@ -153,7 +153,7 @@ function SubLogin({Type}){
             <div id="forColorBlur">
                  <div id='loginBoxDiv'>
                 <div id="imageNearFormDiv">
-                    <img src='./loginPageMainImage.png' id="loginPageImage" alt='imageLogo'></img>
+                    <img src='./loginPageMainImage.jpg' id="loginPageImage" alt='imageLogo'></img>
                 </div>
                 <div id='svgLineDiv'>
                     <svg>

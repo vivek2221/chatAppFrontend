@@ -9,7 +9,7 @@ function CurrChattingShowingDivMain({nameOfFriend}){
     return (
         <div className="topChattingCurrHappening">
                      <div className="arrow" onClick={phoneDisplayGoneOnButtonClick}><i className="ri-arrow-left-line"></i></div>
-                     <div className="specificFriendsTalkingToFirstLetterImage">{nameOfFriend[0].toUpperCase()}</div>
+                     <div className="specificFriendsTalkingToFirstLetterImage"><img src="./avtar.svg" style={{width:'100%',height:'100%'}} alt="avatar"></img></div>
                      <div className="specificFriendsTalkingTo">{nameOfFriend}</div>
                    </div>
     )
