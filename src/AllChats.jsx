@@ -117,7 +117,7 @@ function AllChats(){
             <Toaster />
         <div id="allChatsMainDiv"  ref={container}>
             <div id="topNavbarDiv">
-                <div id="imageLogoTopNavbarDiv"><img src="whisperLogo.png" style={{width:'100%',height:'100%'}}></img></div>
+                <div id="imageLogoTopNavbarDiv"><img src="WisperWhite.svg" style={{width:'60%',height:'60%'}}></img></div>
                 <div id="imageOfNameDiv">{name[0].toUpperCase()}</div>
             </div>
             <div id="chattingInfoParentDiv">
