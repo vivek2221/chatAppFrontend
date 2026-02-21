@@ -263,6 +263,7 @@ box-shadow: 3px 1px 11px -1px #444444;
     align-items: center;
     border-bottom: 1px solid #5B5B5B;
     justify-content: space-between;
+    position: relative;
 }
 #imageLogoTopNavbarDiv{
     width: 80px;
@@ -284,8 +285,38 @@ box-shadow: 3px 1px 11px -1px #444444;
     margin-right: 20px;
     cursor: pointer;
     font-size: larger;
+    position: relative;
+    z-index: 100011;
 }
-
+.underLines{
+    border-bottom: 1px solid rgba(39, 38, 38, 0.301);
+}
+#dropDown{
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 10%;
+    z-index: 1011;
+    display: none;
+    height: 80%;
+    flex-direction:row;
+    align-items: center;
+    width: 200px;
+    opacity: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+}
+#logoutButton{
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+}
 @media (max-width:600px) {
     #topNavbarDiv{
         display: none;
