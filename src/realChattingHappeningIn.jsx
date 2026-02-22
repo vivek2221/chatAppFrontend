@@ -60,7 +60,7 @@ function RealChat(){
                           if(e.key==='Enter'){
                            onClickButtonToSendText()
                           }}} onChange={(e)=>setTypingContent(e.target.value)}></input></div>
-                        <div className="sendIcon" onClick={onClickButtonToSendText}><i className="ri-send-plane-2-line"></i></div>
+                        <div className="sendIcon" onClick={onClickButtonToSendText}><i className="ri-send-plane-2-line colorChanging" ></i></div>
                     </div>
                 </div>
     )

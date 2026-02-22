@@ -612,6 +612,7 @@ box-shadow: 3px 1px 11px -1px #444444;
     padding: 10px;
 
 }
+
 @media (max-width:600px){
     .chattingDiv{
         display: none;
@@ -621,6 +622,9 @@ box-shadow: 3px 1px 11px -1px #444444;
         left: 0;
         top:0;
         z-index: 10023;
+    }
+    .colorChanging{
+        color:white;
     }
     .specificFriendsTalkingToFirstLetterImage{
         left:11%;
@@ -634,9 +638,7 @@ box-shadow: 3px 1px 11px -1px #444444;
     .typingInput{
         width: 90%;
     }
-    .sendIcon{
-        color:'white';
-    }
+    
 }
 /* popUp Inbox */
 #containerPopUpOFInbox{
