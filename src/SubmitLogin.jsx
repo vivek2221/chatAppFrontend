@@ -164,7 +164,7 @@ function SubLogin({Type}){
                     </svg>
                 </div>
                 <form id="form" >
-                    <div id="LogoMainPageLogin"><img src='./whisperLogo.svg' alt="WhisperLogo" id="whisperImage"></img></div>
+                    <div id="LogoMainPageLogin"><img src='./ViverLogo.svg' alt="ViverLogo" id="whisperImage"></img></div>
                 {Type!=='signIn'?<CustomInput inputHint='name' classForDivs="classForComponentInputDiv"  classN="inputClasses" inputValue={values.name} setValues={setValues} error={errors.name}/>:true}
                     <CustomInput inputHint='email' classForDivs="classForComponentInputDiv" classN="inputClasses" inputValue={values.email} setValues={setValues} error={errors.email}/>
                     <CustomInput inputHint='password' classForDivs="classForComponentInputDiv" classN="inputClasses" inputValue={values.password} setValues={setValues} error={errors.password}/>

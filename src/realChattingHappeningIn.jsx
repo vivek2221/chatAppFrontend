@@ -31,7 +31,7 @@ function RealChat(){
         }
     }
     useEffect(()=>{
-        if(currTalkingName!=='Whisper'){
+        if(currTalkingName!=='Viver'){
       fetch(`${import.meta.env.VITE_URL_SERVER}/beginChat/${name}/${currTalkingName}`,{
         method:'GET',
         credentials:'include'

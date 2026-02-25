@@ -85,7 +85,7 @@ function AllChats(){
     const [ws,setWs]=useState()
     const [searchingFriends,setSearchingFriends]=useState('')
     const [findingSomeOne,setFindingSomeOne]=useState('')
-    const [currTalkingName,setCurrTalkingName]=useState('Whisper')
+    const [currTalkingName,setCurrTalkingName]=useState('Viver')
     const [changeState,setChangeState]=useState(0)
     const [pendingToMe,setPendingToMe]=useState([])
     const [allUsersData,setAllUsersData]=useState([])
@@ -149,7 +149,7 @@ function AllChats(){
             }
         }}>
             <div id="topNavbarDiv">
-                <div id="imageLogoTopNavbarDiv"><img src="WisperWhite.svg" style={{width:'60%',height:'60%'}}></img></div>
+                <div id="imageLogoTopNavbarDiv"><img src="Vwhite.svg" style={{width:'50%',height:'50%'}}></img></div>
                  <div id="dropDown" onMouseMove={(e)=>{
                     e.stopPropagation()
                  }}>
