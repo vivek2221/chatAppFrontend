@@ -153,8 +153,8 @@ function AllChats(){
                  <div id="dropDown" onMouseMove={(e)=>{
                     e.stopPropagation()
                  }}>
-                    <div style={{width:'50%',color:'#000000'}}>a</div>
-                    <div className="underLines" style={{width:'30%'}}>{name}</div>
+                    <div style={{width:'50%',color:'#121212'}}>a</div>
+                    <div  style={{width:'30%'}}>{name}</div>
                     <div id="logoutButton"><img src="./logout.svg" style={{width:'20px',height:'20px'}} onClick={(e)=>{
                         fetch(`${import.meta.env.VITE_URL_SERVER}/logout`,{
                             method:'DELETE',
