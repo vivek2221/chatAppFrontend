@@ -760,6 +760,7 @@ box-shadow: 3px 1px 11px -1px #444444;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 .addNameNameDiv{
     width: 100%;
