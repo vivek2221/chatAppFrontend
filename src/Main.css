@@ -1358,7 +1358,8 @@ body {
 
 @media (max-width: 600px) {
   #settingsDrawer {
-    width: 100%;
+    width: 100dvw;
+    height: 100dvh;
   }
 }
 
