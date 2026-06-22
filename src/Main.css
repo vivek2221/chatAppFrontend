@@ -236,7 +236,7 @@ body {
 @media (max-width: 600px) {
   #mainDivLogin {
     width: 100vw;
-    height: 92.5vh;
+    height: 100dvh;
   }
   #imageNearFormDiv, #svgLineDiv {
     display: none;
@@ -701,7 +701,7 @@ body {
   }
   #chatsContentDiv {
     width: 100vw;
-    height: 92vh;
+    height: 100dvh;
   }
 }
 
@@ -904,7 +904,7 @@ body {
     display: none;
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     left: 0;
     top: 0;
     z-index: 10023;
