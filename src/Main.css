@@ -386,10 +386,6 @@ body {
   transition: transform 0.2s ease;
 }
 
-#imageOfNameDiv:hover {
-  /* Still icon on hover */
-}
-
 .underLines {
   border-bottom: 1px solid #f1f5f9;
 }
