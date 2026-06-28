@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react"
 import gsap from 'gsap'
 import { Link, useNavigate } from "react-router-dom"
 import GoogleAuth from "./GoogleAuth.jsx"
+import {useMediaQuery} from 'react-responsive'
 import toast, { Toaster } from 'react-hot-toast'
 const notify = (mess) => toast(mess)
 
