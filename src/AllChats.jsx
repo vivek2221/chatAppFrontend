@@ -235,7 +235,7 @@ function AllChats(){
         <div id="allChatsMainDiv" ref={container}>
             <div id="topNavbarDiv">
                 <div id="imageLogoTopNavbarDiv" style={{display:'flex',alignItems:'center'}}>
-                    <img src="ViverLogo.svg" style={{height:'28px'}} alt="Viver Logo" />
+                    <img src="Vblack.svg" style={{height:'28px'}} alt="Viver Logo" />
                 </div>
                 <div id="imageOfNameDiv" title={name}>{name[0].toUpperCase()}</div>
             </div>
